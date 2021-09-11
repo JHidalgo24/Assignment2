@@ -15,7 +15,7 @@ namespace Assignment2
             System.Console.WriteLine($"3.Day {today:dd} of {today:MMMM}, {today:yyyy}");
             System.Console.WriteLine($"4.Year:{today:yyyy}, Month:{today:MM}, Day:{today:dd}");
             System.Console.WriteLine($"5.{"",10}{today:dddd}(10 spaces)");
-            System.Console.WriteLine($"6.{today:t}{"",13}{today:dddd}(3 spaces before, 10 spaces between)");
+            System.Console.WriteLine($"6.{"",3}{today:t}{"",13}{today:dddd}(3 spaces before, 10 spaces between)");
             System.Console.WriteLine($"7.h{today:HH} ,m:{today:mm}, s:{today:ss}");
             System.Console.WriteLine($"{today:yyyy}.{today:MM}.{today:dd}.{today:HH}.{today:mm}.{today:ss}");
             
